@@ -1,17 +1,77 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amahle's Personal Site</title>
+    <meta charset="utf-8">
+    <title>Formatting a biography</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
+
+        h1 {
+            color: rgb(29, 95, 117);
+            font-size: 2em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-bottom: 10px rgb(0, 128, 122) solid;
+
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-style: italic;
+        }
+
+        .job-title {
+            color: #999999;
+            font-weight: bold;
+        }
+
+        a:link,
+        a:visited {
+            color: #fb6542;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: green;
+        }
+
+        .contact{
+            background-color: #eeeeee;
+            border: 5px solid rgb(0, 128, 122) ;
+            padding: 25px;
+        }
+
+        li{
+            padding: 2px;
+        }
+
+        ul .speciallinks {
+            border-style: none;
+            padding: 0px;
+            border:0px;
+            margin-left: 20px;
+        }
+    </style>
 </head>
-<body style="background-color: #f0f3f3;">
-    <img src="images/amahle.png" alt="Amahle Bilikwa" width="200" height="200">
-    <h1 > <em>Amahle Bilikwa</em> </h1>
-    <p>Full stack systems developer, enthusiastic about learning new technologies,
-        keen on improving my knowledge in the tech space. Basically i want to be
-        one of the greatest software developers.
+
+<body>
+
+    <h1>Amahle Bilikwa</h1>
+    <div class="job-title">Web Developer</div>
+    <p>About
+        Software developer student at WeThinkCode_. Keen interest in new
+        technologies such as Machine learning. Creative problem solver, I enjoy
+        coming up with simple solutions for real world problems. </p>
+
+    <p>I like challenging
+        my self, continuous learning is important to me. Demonstrated skills in 
+        Python and Java
     </p>
 
     <h3>Education</h3>  
@@ -42,20 +102,27 @@
         <li>Working in a team as a developer</li>
         <li>Docker</li>
     </ul>
-    <br>
-    <br>
-    <a href="#">My projects</a>
 
-    <br>
-    <br>
-    <h3>Contact information</h3>
-    <ul>
-        <li>
-            Email: kamvaoct10@gmail.com
+
+    <h2>Contact information</h2>
+    <ul class="contact">
+        <li>Email:
+            <a href="kamvaoct10@gmail.com">kamvaoct10@gmail.com</a>
         </li>
-        <li>
-            Phone no: +27 81 849 1574
+        <li>Web:
+            <ul class="speciallinks">
+                <li>
+                    <a href="https://www.linkedin.com/in/amahle-bilikwa-a3a137240/">www.linkedin.com</a>
+
+                </li>
+                <li>
+                    <a href="https://github.com/Amahle10">www.Github.com</a>
+                </li>
+            </ul>
         </li>
-        <li> <a href="https://github.com/Amahle10">Github</a></li>
+        <li>Tel: +27 81 849 1574</li>
+    </ul>
+
 </body>
+
 </html>
